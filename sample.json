@@ -1,0 +1,1308 @@
+{
+"Clients 1":[
+ {
+  "ClientID": "C1",
+  "ClientName": "Acme Corp",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T17,T27,T33,T31,T20,T3,T32,T26",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"New York\",\"budget\":100000}"
+ },
+ {
+  "ClientID": "C2",
+  "ClientName": "Globex Inc",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T35,T39,T10,T17,T46",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "ensure deliverables align with project scope"
+ },
+ {
+  "ClientID": "C3",
+  "ClientName": "Initech",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T28,T7,T23,T40,T41,T31,T36,T21,T50,T14",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"sla\":\"24h\",\"vip\":true}"
+ },
+ {
+  "ClientID": "C4",
+  "ClientName": "Umbrella Co",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T22,T1,T43,T21,T32,T41,T16,T5,T40,T13",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "budget approved pending CFO review"
+ },
+ {
+  "ClientID": "C5",
+  "ClientName": "Stark Industries",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T36,T32,T8,T47,T7,T19,T20",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"notes\":\"rush order\",\"budget\":200000}"
+ },
+ {
+  "ClientID": "C6",
+  "ClientName": "Wayne Enterprises",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T19,T16,T13,T40,T37,T46,T21,T3,T12",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "client prefers morning meetings"
+ },
+ {
+  "ClientID": "C7",
+  "ClientName": "Soylent Corp",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T14,T38,T44,T35,T26,T18,T46,T16,T34,T47",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"location\":\"London\",\"priority\":\"high\"}"
+ },
+ {
+  "ClientID": "C8",
+  "ClientName": "Hooli",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T13,T15,T8,T18,T22,T2,T24,T16",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "escalate any delays immediately"
+ },
+ {
+  "ClientID": "C9",
+  "ClientName": "Massive Dynamic",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T35,T44,T39,T5,T41",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"region\":\"APAC\",\"budget\":150000}"
+ },
+ {
+  "ClientID": "C10",
+  "ClientName": "Cyberdyne Systems",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T39,T3,T13,T50,T8,T2,T24,T26,T6",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "verify all entries for compliance"
+ },
+ {
+  "ClientID": "C11",
+  "ClientName": "Tyrell Corp",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T15,T5,T20,T49,T23,T42,T60,T28,T17",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"Sydney\",\"contact\":\"alice@example.com\"}"
+ },
+ {
+  "ClientID": "C12",
+  "ClientName": "Oceanic Airlines",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T31,T11,T45,T44,T37,T14,T4",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "follow up with regional manager"
+ },
+ {
+  "ClientID": "C13",
+  "ClientName": "Pied Piper",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T29,T43,T31,T12,T1",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"vip\":false,\"notes\":\"standard processing\"}"
+ },
+ {
+  "ClientID": "C14",
+  "ClientName": "Buzzfeed",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T22,T30,T45,T6,T10,T36,T1,T17",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "test integration in sandbox before prod"
+ },
+ {
+  "ClientID": "C15",
+  "ClientName": "Nakatomi",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T25,T27,T51,T9,T38,T41,T20,T40,T23",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"location\":\"Berlin\",\"budget\":80000}"
+ },
+ {
+  "ClientID": "C16",
+  "ClientName": "Wonka Industries",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T49,T26,T45,T27,T48,T3,T37,T44",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "coordinate deliverables across teams"
+ },
+ {
+  "ClientID": "C17",
+  "ClientName": "Sterling Cooper",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T3,T50,T39,T21,T36,T1,T32,T20",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"Toronto\",\"budget\":120000}"
+ },
+ {
+  "ClientID": "C18",
+  "ClientName": "Los Pollos Hermanos",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T27,T1,T21,T14,T44",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "update roadmap with client feedback"
+ },
+ {
+  "ClientID": "C19",
+  "ClientName": "Biffco",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T13,T60,T20,T45,T18,T42",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"vip\":true,\"sla\":\"12h\"}"
+ },
+ {
+  "ClientID": "C20",
+  "ClientName": "Monolith",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T17,TX,T9,T8,T29",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "schedule weekly status calls"
+ },
+ {
+  "ClientID": "C21",
+  "ClientName": "Dinoco",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T21,T17,T36,T44,TX",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"preferredContact\":\"email\",\"timezone\":\"EST\"}"
+ },
+ {
+  "ClientID": "C22",
+  "ClientName": "Springfield Nuclear",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T41,T19,T24,T35,T12,T14,T25,T38,T28,T30",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "require NDA before sharing docs"
+ },
+ {
+  "ClientID": "C23",
+  "ClientName": "Duff Beer",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T19,T3,T38,T50,T10,T11,T18",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"budget\":null,\"notes\":\"\"}"
+ },
+ {
+  "ClientID": "C24",
+  "ClientName": "Gotham LLC",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T22,T12,T20,T26,T49,T4,T34,T5",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "delay start date until client sign-off"
+ },
+ {
+  "ClientID": "C25",
+  "ClientName": "LexCorp",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T8,T28,T32,T3,T45,TX,T20",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"location\":\"Paris\",\"budget\":50000}"
+ },
+ {
+  "ClientID": "C26",
+  "ClientName": "Zeitgeist LLC",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T4,T25,T1,T13,T48,T6,T26,T15,TX,T7",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "ensure data integrity before final export"
+ },
+ {
+  "ClientID": "C27",
+  "ClientName": "Blue Ocean",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T29,T8,T34,T60,T45,T44,T2,T5",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"location\":\"Miami\",\"budget\":90000}"
+ },
+ {
+  "ClientID": "C28",
+  "ClientName": "Redwood Tech",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T30,T35,T24,T25,T7,T13",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "legacy system requires special handling"
+ },
+ {
+  "ClientID": "C29",
+  "ClientName": "Quantum Dynamics",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T32,T13,T43,T49,T41,T46,T44,T34,T21,T35",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"sla\":\"48h\",\"vip\":false}"
+ },
+ {
+  "ClientID": "C30",
+  "ClientName": "Apex Innovations",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T25,T38,T19,T31,T46,T10,T5",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "please coordinate with external partners"
+ },
+ {
+  "ClientID": "C31",
+  "ClientName": "Nova Solutions",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T1,T49,T11,T29,T22,T60",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"location\":\"Delhi\",\"budget\":120000}"
+ },
+ {
+  "ClientID": "C32",
+  "ClientName": "Evergreen Co",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T39,T44,T37,T6,T5,T34,T14,T28,T19",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "archive reports monthly"
+ },
+ {
+  "ClientID": "C33",
+  "ClientName": "Horizon Enterprises",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T27,T5,T22,T20,T99,T37,T32,T17,T33,T48",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"priority\":\"medium\",\"notes\":\"review Q3 targets\"}"
+ },
+ {
+  "ClientID": "C34",
+  "ClientName": "Summit Group",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T39,T10,T32,T27,T31",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "escalate urgent requests ASAP"
+ },
+ {
+  "ClientID": "C35",
+  "ClientName": "Pinnacle Corp",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T31,T4,T7,T25,T30",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"San Diego\",\"budget\":110000}"
+ },
+ {
+  "ClientID": "C36",
+  "ClientName": "Vertex Inc",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T23,T40,T45,T42,T13,T32,T4,T36,T25,T8",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "anticipate scope creep and mitigate risk"
+ },
+ {
+  "ClientID": "C37",
+  "ClientName": "Meridian Ltd",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T26,T44,T3,T29,T13,T8,T34",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"sla\":\"24h\",\"budget\":75000}"
+ },
+ {
+  "ClientID": "C38",
+  "ClientName": "Aurora LLC",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T2,T17,T3,T32,T34",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "allow for seasonal delays"
+ },
+ {
+  "ClientID": "C39",
+  "ClientName": "Solstice Inc",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T20,T8,T27,T37,T33,T28,T45,T10,T43,T34",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"notes\":\"VIP status\",\"region\":\"EMEA\"}"
+ },
+ {
+  "ClientID": "C40",
+  "ClientName": "Zenith Solutions",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T21,T17,T5,T23,T27,T6,T32,T2",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "confirm time zones for all stakeholders"
+ },
+ {
+  "ClientID": "C41",
+  "ClientName": "Parallax Group",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T10,T5,T39,T15,T24",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"Toronto\",\"budget\":95000}"
+ },
+ {
+  "ClientID": "C42",
+  "ClientName": "Kinetic Works",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T12,T39,T99,T8,T30,T45,T24,T2,T15,T10",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "escalate billing issues to finance"
+ },
+ {
+  "ClientID": "C43",
+  "ClientName": "Catalyst Systems",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T6,T36,T12,T41,T21,T7,T38",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"priority\":\"high\",\"sla\":\"6h\"}"
+ },
+ {
+  "ClientID": "C44",
+  "ClientName": "Odyssey Corp",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T33,T19,T12,T21,T48,T16",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "review legacy configurations"
+ },
+ {
+  "ClientID": "C45",
+  "ClientName": "Echelon Inc",
+  "PriorityLevel": 1,
+  "RequestedTaskIDs": "T99,T10,T20,T9,T5,T27,T48,T36",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "{\"budget\":null,\"contact\":\"ops@example.com\"}"
+ },
+ {
+  "ClientID": "C46",
+  "ClientName": "Vanguard Tech",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T24,T1,T48,T21,T19,T4,T29,T27,T25,T14",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "ensure encryption compliance"
+ },
+ {
+  "ClientID": "C47",
+  "ClientName": "Integrity Labs",
+  "PriorityLevel": 5,
+  "RequestedTaskIDs": "T30,T10,T49,T26,T27,T34,T28,T12,T22,T16",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "{\"location\":\"Zurich\",\"budget\":140000}"
+ },
+ {
+  "ClientID": "C48",
+  "ClientName": "Unity Ventures",
+  "PriorityLevel": 3,
+  "RequestedTaskIDs": "T8,T14,T49,T39,T28,T41,T35,T20,T10",
+  "GroupTag": "GroupB",
+  "AttributesJSON": "prepare presentation deck by Friday"
+ },
+ {
+  "ClientID": "C49",
+  "ClientName": "Velocity Corp",
+  "PriorityLevel": 4,
+  "RequestedTaskIDs": "T1,T43,T3,T17,T99",
+  "GroupTag": "GroupC",
+  "AttributesJSON": "{\"sla\":\"72h\",\"notes\":\"bulk orders only\"}"
+ },
+ {
+  "ClientID": "C50",
+  "ClientName": "Nexus Dynamics",
+  "PriorityLevel": 2,
+  "RequestedTaskIDs": "T13,T44,T3,T19,TX,T5,T39,T49,T6,T17",
+  "GroupTag": "GroupA",
+  "AttributesJSON": "finalize project charter before kickoff"
+ }
+],
+"Worker 1":[
+ {
+  "WorkerID": "W1",
+  "WorkerName": "Worker1",
+  "Skills": "data,analysis",
+  "AvailableSlots": "[1,2,3]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W2",
+  "WorkerName": "Worker2",
+  "Skills": "coding,ml",
+  "AvailableSlots": "[2,4,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W3",
+  "WorkerName": "Worker3",
+  "Skills": "testing,ui\/ux",
+  "AvailableSlots": "[1,4]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W4",
+  "WorkerName": "Worker4",
+  "Skills": "reporting,devops",
+  "AvailableSlots": "[3,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W5",
+  "WorkerName": "Worker5",
+  "Skills": "design,testing",
+  "AvailableSlots": "[2,3,4]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W6",
+  "WorkerName": "Worker6",
+  "Skills": "data,coding",
+  "AvailableSlots": "[1,2,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 1
+ },
+ {
+  "WorkerID": "W7",
+  "WorkerName": "Worker7",
+  "Skills": "ml,analysis",
+  "AvailableSlots": "[3,4,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W8",
+  "WorkerName": "Worker8",
+  "Skills": "coding,devops",
+  "AvailableSlots": "[1,3]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W9",
+  "WorkerName": "Worker9",
+  "Skills": "reporting,analysis",
+  "AvailableSlots": "[2,4]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W10",
+  "WorkerName": "Worker10",
+  "Skills": "ui\/ux,design",
+  "AvailableSlots": "[4,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W11",
+  "WorkerName": "Worker11",
+  "Skills": "testing,data",
+  "AvailableSlots": "[1,2]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W12",
+  "WorkerName": "Worker12",
+  "Skills": "ml,devops",
+  "AvailableSlots": "[2,3,4]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W13",
+  "WorkerName": "Worker13",
+  "Skills": "coding,testing",
+  "AvailableSlots": "[3,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W14",
+  "WorkerName": "Worker14",
+  "Skills": "data,ui\/ux",
+  "AvailableSlots": "[1,4,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 1
+ },
+ {
+  "WorkerID": "W15",
+  "WorkerName": "Worker15",
+  "Skills": "reporting,design",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W16",
+  "WorkerName": "Worker16",
+  "Skills": "analysis,ml",
+  "AvailableSlots": "[1,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W17",
+  "WorkerName": "Worker17",
+  "Skills": "coding,ui\/ux",
+  "AvailableSlots": "[2,4]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W18",
+  "WorkerName": "Worker18",
+  "Skills": "devops,data",
+  "AvailableSlots": "[3,4,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W19",
+  "WorkerName": "Worker19",
+  "Skills": "design,testing",
+  "AvailableSlots": "[1,2,3]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W20",
+  "WorkerName": "Worker20",
+  "Skills": "reporting,ml",
+  "AvailableSlots": "[2,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W21",
+  "WorkerName": "Worker21",
+  "Skills": "coding,data",
+  "AvailableSlots": "[1,3]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W22",
+  "WorkerName": "Worker22",
+  "Skills": "ui\/ux,analysis",
+  "AvailableSlots": "[2,3,4]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 1
+ },
+ {
+  "WorkerID": "W23",
+  "WorkerName": "Worker23",
+  "Skills": "testing,devops",
+  "AvailableSlots": "[3,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W24",
+  "WorkerName": "Worker24",
+  "Skills": "data,design",
+  "AvailableSlots": "[1,2]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W25",
+  "WorkerName": "Worker25",
+  "Skills": "ml,testing",
+  "AvailableSlots": "[2,4]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W26",
+  "WorkerName": "Worker26",
+  "Skills": "coding,analysis",
+  "AvailableSlots": "[3,4,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W27",
+  "WorkerName": "Worker27",
+  "Skills": "reporting,ui\/ux",
+  "AvailableSlots": "[1,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W28",
+  "WorkerName": "Worker28",
+  "Skills": "devops,testing",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W29",
+  "WorkerName": "Worker29",
+  "Skills": "data,ml",
+  "AvailableSlots": "[4,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W30",
+  "WorkerName": "Worker30",
+  "Skills": "coding,design",
+  "AvailableSlots": "[1,2,3]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W31",
+  "WorkerName": "Worker31",
+  "Skills": "analysis,devops",
+  "AvailableSlots": "[2,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W32",
+  "WorkerName": "Worker32",
+  "Skills": "reporting,coding",
+  "AvailableSlots": "[3,4]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 1
+ },
+ {
+  "WorkerID": "W33",
+  "WorkerName": "Worker33",
+  "Skills": "ui\/ux,testing",
+  "AvailableSlots": "[1,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W34",
+  "WorkerName": "Worker34",
+  "Skills": "design,data",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W35",
+  "WorkerName": "Worker35",
+  "Skills": "ml,ui\/ux",
+  "AvailableSlots": "[3,4,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W36",
+  "WorkerName": "Worker36",
+  "Skills": "analysis,testing",
+  "AvailableSlots": "[1,2]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W37",
+  "WorkerName": "Worker37",
+  "Skills": "coding,devops",
+  "AvailableSlots": "[2,4]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W38",
+  "WorkerName": "Worker38",
+  "Skills": "data,reporting",
+  "AvailableSlots": "[3,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W39",
+  "WorkerName": "Worker39",
+  "Skills": "testing,coding",
+  "AvailableSlots": "[1,4]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W40",
+  "WorkerName": "Worker40",
+  "Skills": "design,devops",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W41",
+  "WorkerName": "Worker41",
+  "Skills": "analysis,ui\/ux",
+  "AvailableSlots": "[3,4]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W42",
+  "WorkerName": "Worker42",
+  "Skills": "ml,design",
+  "AvailableSlots": "[1,5]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W43",
+  "WorkerName": "Worker43",
+  "Skills": "coding,analysis",
+  "AvailableSlots": "[2,4,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W44",
+  "WorkerName": "Worker44",
+  "Skills": "reporting,data",
+  "AvailableSlots": "[1,3]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W45",
+  "WorkerName": "Worker45",
+  "Skills": "ui\/ux,testing",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 5
+ },
+ {
+  "WorkerID": "W46",
+  "WorkerName": "Worker46",
+  "Skills": "devops,design",
+  "AvailableSlots": "[3,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 1
+ },
+ {
+  "WorkerID": "W47",
+  "WorkerName": "Worker47",
+  "Skills": "ml,coding",
+  "AvailableSlots": "[1,2]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 4
+ },
+ {
+  "WorkerID": "W48",
+  "WorkerName": "Worker48",
+  "Skills": "analysis,devops",
+  "AvailableSlots": "[2,5]",
+  "MaxLoadPerPhase": 1,
+  "WorkerGroup": "GroupC",
+  "QualificationLevel": 2
+ },
+ {
+  "WorkerID": "W49",
+  "WorkerName": "Worker49",
+  "Skills": "reporting,testing",
+  "AvailableSlots": "[1,4,5]",
+  "MaxLoadPerPhase": 2,
+  "WorkerGroup": "GroupA",
+  "QualificationLevel": 3
+ },
+ {
+  "WorkerID": "W50",
+  "WorkerName": "Worker50",
+  "Skills": "data,ui\/ux",
+  "AvailableSlots": "[2,3]",
+  "MaxLoadPerPhase": 3,
+  "WorkerGroup": "GroupB",
+  "QualificationLevel": 5
+ }
+],
+"Tasks 1":[
+ {
+  "TaskID": "T1",
+  "TaskName": "Data Cleanup",
+  "Category": "ETL",
+  "Duration": 2,
+  "RequiredSkills": "coding",
+  "PreferredPhases": "1 - 2",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T2",
+  "TaskName": "Report Generation",
+  "Category": "Analytics",
+  "Duration": 1,
+  "RequiredSkills": "analysis,reporting",
+  "PreferredPhases": "[2,3,4]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T3",
+  "TaskName": "Model Training",
+  "Category": "ML",
+  "Duration": 3,
+  "RequiredSkills": "ml,coding",
+  "PreferredPhases": "3 - 5",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T4",
+  "TaskName": "UI Prototype",
+  "Category": "Design",
+  "Duration": 2,
+  "RequiredSkills": "design",
+  "PreferredPhases": "[1,2]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T5",
+  "TaskName": "Load Testing",
+  "Category": "QA",
+  "Duration": 1,
+  "RequiredSkills": "testing",
+  "PreferredPhases": "2 - 3",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T6",
+  "TaskName": "Feature Engineering",
+  "Category": "ML",
+  "Duration": 4,
+  "RequiredSkills": "data,ml",
+  "PreferredPhases": "2 - 5",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T7",
+  "TaskName": "A\/B Testing",
+  "Category": "Analytics",
+  "Duration": 2,
+  "RequiredSkills": "testing,analysis",
+  "PreferredPhases": "[1,3]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T8",
+  "TaskName": "Dashboard Build",
+  "Category": "Design",
+  "Duration": 3,
+  "RequiredSkills": "ui\/ux,data",
+  "PreferredPhases": "3 - 4",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T9",
+  "TaskName": "Code Review",
+  "Category": "QA",
+  "Duration": 1,
+  "RequiredSkills": "coding,testing",
+  "PreferredPhases": "[2,3]",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T10",
+  "TaskName": "API Development",
+  "Category": "ETL",
+  "Duration": 3,
+  "RequiredSkills": "coding,devops",
+  "PreferredPhases": "1 - 3",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T11",
+  "TaskName": "Bug Fixing",
+  "Category": "QA",
+  "Duration": 2,
+  "RequiredSkills": "testing,coding",
+  "PreferredPhases": "[2,4]",
+  "MaxConcurrent": 4
+ },
+ {
+  "TaskID": "T12",
+  "TaskName": "Security Audit",
+  "Category": "Security",
+  "Duration": 3,
+  "RequiredSkills": "devops,testing",
+  "PreferredPhases": "[1,2,3]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T13",
+  "TaskName": "Performance Tuning",
+  "Category": "QA",
+  "Duration": 2,
+  "RequiredSkills": "coding,devops",
+  "PreferredPhases": "3 - 5",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T14",
+  "TaskName": "Data Migration",
+  "Category": "ETL",
+  "Duration": 4,
+  "RequiredSkills": "data,devops",
+  "PreferredPhases": "1 - 4",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T15",
+  "TaskName": "Infrastructure Setup",
+  "Category": "Infrastructure",
+  "Duration": 5,
+  "RequiredSkills": "devops",
+  "PreferredPhases": "[1,2,3]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T16",
+  "TaskName": "User Testing",
+  "Category": "QA",
+  "Duration": 2,
+  "RequiredSkills": "testing,ui\/ux",
+  "PreferredPhases": "[4,5]",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T17",
+  "TaskName": "Documentation",
+  "Category": "Writing",
+  "Duration": 1,
+  "RequiredSkills": "reporting",
+  "PreferredPhases": "[1,2]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T18",
+  "TaskName": "Code Refactoring",
+  "Category": "QA",
+  "Duration": 3,
+  "RequiredSkills": "coding",
+  "PreferredPhases": "2 - 4",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T19",
+  "TaskName": "Market Analysis",
+  "Category": "Analytics",
+  "Duration": 3,
+  "RequiredSkills": "analysis",
+  "PreferredPhases": "[3,5]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T20",
+  "TaskName": "Customer Interview",
+  "Category": "Research",
+  "Duration": 1,
+  "RequiredSkills": "reporting",
+  "PreferredPhases": "[2]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T21",
+  "TaskName": "Data Visualization",
+  "Category": "Analytics",
+  "Duration": 2,
+  "RequiredSkills": "ui\/ux,data",
+  "PreferredPhases": "1 - 3",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T22",
+  "TaskName": "Experiment Setup",
+  "Category": "ML",
+  "Duration": 3,
+  "RequiredSkills": "ml,data",
+  "PreferredPhases": "[2,3,4]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T23",
+  "TaskName": "Regression Testing",
+  "Category": "QA",
+  "Duration": 2,
+  "RequiredSkills": "testing",
+  "PreferredPhases": "3 - 5",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T24",
+  "TaskName": "Load Balancing",
+  "Category": "DevOps",
+  "Duration": 4,
+  "RequiredSkills": "devops",
+  "PreferredPhases": "[1,2]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T25",
+  "TaskName": "UX Research",
+  "Category": "Design",
+  "Duration": 3,
+  "RequiredSkills": "ui\/ux,analysis",
+  "PreferredPhases": "[3,4]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T26",
+  "TaskName": "Prototype Assembly",
+  "Category": "Design",
+  "Duration": 2,
+  "RequiredSkills": "design",
+  "PreferredPhases": "1 - 2",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T27",
+  "TaskName": "Deployment",
+  "Category": "DevOps",
+  "Duration": 1,
+  "RequiredSkills": "devops",
+  "PreferredPhases": "[1]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T28",
+  "TaskName": "Backup Configuration",
+  "Category": "DevOps",
+  "Duration": 2,
+  "RequiredSkills": "devops",
+  "PreferredPhases": "[2,3]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T29",
+  "TaskName": "Data Labeling",
+  "Category": "ML",
+  "Duration": 2,
+  "RequiredSkills": "data",
+  "PreferredPhases": "[4,5]",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T30",
+  "TaskName": "Model Evaluation",
+  "Category": "ML",
+  "Duration": 3,
+  "RequiredSkills": "ml",
+  "PreferredPhases": "1 - 2",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T31",
+  "TaskName": "Logging Setup",
+  "Category": "Infrastructure",
+  "Duration": 1,
+  "RequiredSkills": "devops",
+  "PreferredPhases": "[2]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T32",
+  "TaskName": "Sanity Check",
+  "Category": "QA",
+  "Duration": 1,
+  "RequiredSkills": "testing",
+  "PreferredPhases": "[1]",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T33",
+  "TaskName": "Integration Testing",
+  "Category": "QA",
+  "Duration": 3,
+  "RequiredSkills": "testing,coding",
+  "PreferredPhases": "2 - 4",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T34",
+  "TaskName": "Stress Testing",
+  "Category": "QA",
+  "Duration": 4,
+  "RequiredSkills": "testing",
+  "PreferredPhases": "3 - 5",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T35",
+  "TaskName": "Penetration Testing",
+  "Category": "Security",
+  "Duration": 3,
+  "RequiredSkills": "testing,devops",
+  "PreferredPhases": "[1,2]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T36",
+  "TaskName": "Content Writing",
+  "Category": "Writing",
+  "Duration": 2,
+  "RequiredSkills": "reporting",
+  "PreferredPhases": "[2 - 4]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T37",
+  "TaskName": "Graphic Design",
+  "Category": "Design",
+  "Duration": 2,
+  "RequiredSkills": "design",
+  "PreferredPhases": "[3]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T38",
+  "TaskName": "Video Editing",
+  "Category": "Design",
+  "Duration": 3,
+  "RequiredSkills": "design",
+  "PreferredPhases": "[1 - 3]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T39",
+  "TaskName": "SEO Optimization",
+  "Category": "Marketing",
+  "Duration": 2,
+  "RequiredSkills": "reporting",
+  "PreferredPhases": "[4,5]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T40",
+  "TaskName": "Social Media Plan",
+  "Category": "Marketing",
+  "Duration": 3,
+  "RequiredSkills": "reporting,ui\/ux",
+  "PreferredPhases": "[2,4]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T41",
+  "TaskName": "Campaign Analysis",
+  "Category": "Analytics",
+  "Duration": 2,
+  "RequiredSkills": "analysis",
+  "PreferredPhases": "[3]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T42",
+  "TaskName": "Sales Presentation",
+  "Category": "Sales",
+  "Duration": 1,
+  "RequiredSkills": "reporting,design",
+  "PreferredPhases": "[1]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T43",
+  "TaskName": "Budget Forecast",
+  "Category": "Analytics",
+  "Duration": 2,
+  "RequiredSkills": "analysis",
+  "PreferredPhases": "1 - 2",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T44",
+  "TaskName": "Risk Assessment",
+  "Category": "Compliance",
+  "Duration": 3,
+  "RequiredSkills": "analysis,testing",
+  "PreferredPhases": "[2,3]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T45",
+  "TaskName": "Compliance Check",
+  "Category": "Compliance",
+  "Duration": 1,
+  "RequiredSkills": "analysis",
+  "PreferredPhases": "[4]",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T46",
+  "TaskName": "Quality Assurance",
+  "Category": "QA",
+  "Duration": 2,
+  "RequiredSkills": "testing",
+  "PreferredPhases": "[1,2]",
+  "MaxConcurrent": 3
+ },
+ {
+  "TaskID": "T47",
+  "TaskName": "Crosswalk Analysis",
+  "Category": "Analytics",
+  "Duration": 3,
+  "RequiredSkills": "analysis,data",
+  "PreferredPhases": "[3,5]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T48",
+  "TaskName": "Database Optimization",
+  "Category": "Infrastructure",
+  "Duration": 4,
+  "RequiredSkills": "data,devops",
+  "PreferredPhases": "1 - 3",
+  "MaxConcurrent": 2
+ },
+ {
+  "TaskID": "T49",
+  "TaskName": "Cloud Migration",
+  "Category": "DevOps",
+  "Duration": 5,
+  "RequiredSkills": "devops,data",
+  "PreferredPhases": "[2 - 5]",
+  "MaxConcurrent": 1
+ },
+ {
+  "TaskID": "T50",
+  "TaskName": "Disaster Recovery",
+  "Category": "Infrastructure",
+  "Duration": 4,
+  "RequiredSkills": "devops,data",
+  "PreferredPhases": "[1 - 2]",
+  "MaxConcurrent": 2
+ }
+]
+}
