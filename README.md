@@ -194,54 +194,9 @@ The app includes 14+ validation rules:
 8. Phase slot saturation
 9. And more...
 
-### Business Rule Types
-1. **Co-Run**: Tasks that must run together
-2. **Slot Restriction**: Limit available time slots
-3. **Load Limit**: Maximum workload per phase
-4. **Phase Window**: Restrict tasks to phases
-5. **Pattern Match**: Apply regex-based rules
-6. **Precedence**: Define execution order
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically
 
-### Other Platforms
-The app can be deployed to any platform that supports Next.js:
-- Netlify
-- AWS Amplify
-- Railway
-- Heroku
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Built with Next.js and TypeScript
-- Styled with Tailwind CSS
-- Icons from various emoji sets
-- Sample data generated for demonstration
-
-## 📞 Support
-
-For questions or support:
-- Create an issue on GitHub
-- Check the documentation
-- Review the validation errors in the app
-
----
-
-**Data Alchemist** - Transforming chaos into clarity, one dataset at a time! 🧪✨
